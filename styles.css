@@ -130,7 +130,31 @@ a {
 }
 
 .wrapper-steps {
-  
+  padding: 20px 0;
 }
 
-.wrapper-step
+.image-steps {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  background-color: orangered;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#number-steps {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.label-steps {
+  color: #808080;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: justify;
+}
