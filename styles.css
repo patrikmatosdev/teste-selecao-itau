@@ -1,0 +1,136 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+}
+
+.wrapper {
+  background-color: #fafafa;
+  margin: auto;
+  width: 550px;
+}
+
+#wrapper-header {
+  padding: 5px;
+  text-align: center;
+  background-color: #ccc;
+  font-size: 12px;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background: white;
+}
+
+.wrapper-logo {
+  padding: 30px 10px;
+}
+
+#itau {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper-banner {
+  height: 150px;
+}
+
+#banner {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper-content {
+  padding: 20px 30px;
+}
+
+p {
+  line-height: 1.2;
+}
+
+.wrapper-text {
+  font-size: 12px;
+  color: #a9a9a9;
+}
+
+.wrapper-title {
+  color: #ff4500;
+  font-size: 16px;
+  padding: 10px 0 0 0;
+}
+
+.wrapper-title-product {
+  padding: 5px 15px;
+  font-weight: bold;
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+.wrapper-description {
+  background: #ccc;
+  padding-bottom: 10px;
+}
+
+.wrapper-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+
+#image-product {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper-text-product {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  text-align: center;
+}
+
+.wrapper-button {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  text-align: center;
+}
+
+#acesse {
+  border-radius: 10px;
+  color: white;
+  border: 1px solid orangered;
+  background-color: orangered;
+  padding: 5px 40px;
+}
+
+.wrapper-banner-link {
+  padding: 20px 30px;
+  background-color: orangered;
+  color: #fafafa;
+  font-size: 12px;
+}
+
+a {
+  font-size: 14px;
+  color: #fafafa;
+  font-weight: 400;
+}
+
+.wrapper-steps {
+  
+}
+
+.wrapper-step
