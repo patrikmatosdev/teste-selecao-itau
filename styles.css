@@ -12,10 +12,10 @@ body {
 }
 
 #wrapper-header {
-  padding: 5px;
   text-align: center;
   background-color: #ccc;
   font-size: 12px;
+  padding: 5px;
 }
 
 
@@ -23,10 +23,13 @@ body {
   width: 50px;
   height: 50px;
   background: white;
+  float: right;
+  margin-bottom: 10px;
 }
 
 .wrapper-logo {
-  padding: 30px 10px;
+  padding: 30px 20px;
+  
 }
 
 #itau {
@@ -38,7 +41,7 @@ body {
 }
 
 .wrapper-banner {
-  height: 150px;
+  height: 200px;
 }
 
 #banner {
@@ -50,7 +53,7 @@ body {
 }
 
 .wrapper-content {
-  padding: 20px 30px;
+  padding: 30px 30px;
 }
 
 p {
@@ -77,7 +80,7 @@ p {
 
 .wrapper-description {
   background: #ccc;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 .wrapper-image {
@@ -99,6 +102,8 @@ p {
   vertical-align: middle;
   width: 40%;
   text-align: center;
+  font-size: 14px;
+  color: #808080;
 }
 
 .wrapper-button {
@@ -133,28 +138,130 @@ a {
   padding: 20px 0;
 }
 
-.image-steps {
+.wrapper-image-steps {
+  width: 15%;
   display: inline-block;
   vertical-align: middle;
-  width: 40px;
-  height: 40px;
+}
+
+.image-steps {
+  width: 50px;
+  height: 50px;
   background-color: orangered;
   border-radius: 50%;
   text-align: center;
-  margin-right: 10px;
 }
 
-#number-steps {
+.number-steps {
   width: 100%;
   height: 100%;
-  line-height: 40px;
+  line-height: 50px;
   color: #fafafa;
   font-weight: bold;
 }
 
-.label-steps {
-  color: #808080;
+.wrapper-label-steps {
+  width: 84%;
   display: inline-block;
   vertical-align: middle;
   text-align: justify;
+}
+
+
+.label-steps {
+  color: #808080;
+}
+
+.wrapper-info {
+  padding: 10px 30px;
+  background-color: #808080;
+}
+
+.wrapper-image-info {
+  width: 15%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.wrapper-image-internal {
+  width: 40px;
+  height: 40px;
+}
+
+#image-info {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper-label-info {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+  font-size: 14px;
+}
+
+.wrapper-footer {
+  padding-top: 15px;
+}
+
+.wrapper-footer-title {
+  margin-top: 20px;
+}
+
+.title-footer {
+  font-size: 12px;
+  color: #808080;
+}
+
+.wrapper-apps {
+  padding-top: 5px;
+}
+
+.wrapper-app-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.app-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.image-app-icon {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper-app-label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.app-label {
+  font-size: 12px;
+  color: orangered;
+  font-weight: bold;
+}
+
+.wrapper-phone {
+  padding-top: 20px;
+}
+
+.wrapper-phone-column {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  
+}
+
+.wrapper-phone-label {
+  font-size: 10px;
+  color: #808080;
 }
